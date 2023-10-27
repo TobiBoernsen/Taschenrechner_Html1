@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div id="calculator">
+      <input type="text" id="display" readonly>
+      <div id="buttons">
+        <button onclick="appendValue('7')">7</button>
+        <button onclick="appendValue('8')">8</button>
+        <button onclick="appendValue('9')">9</button>
+        <button onclick="setOperation('/')">/</button>
+        <button onclick="appendValue('4')">4</button>
+        <button onclick="appendValue('5')">5</button>
+        <button onclick="appendValue('6')">6</button>
+        <button onclick="setOperation('*')">*</button>
+        <button onclick="appendValue('1')">1</button>
+        <button onclick="appendValue('2')">2</button>
+        <button onclick="appendValue('3')">3</button>
+        <button onclick="setOperation('-')">-</button>
+        <button onclick="appendValue('0')">0</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="setOperation('+')">+</button>
+        <button onclick="deleteCharacter()">Del</button>
+        <button onclick="clearAll()">AC</button>
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
