@@ -1,0 +1,55 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('background.jpg');  /* Hintergrundbild */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#calculator {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #00ff00;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px #00ff00;
+     background-image: url('https://www.freepik.com/free-vector/realistic-vhs-effect-background_36860768.htm#query=cyberpunk%20texture&position=0&from_view=keyword&track=ais');
+ background-size: cover;
+
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    text-align: right;
+    background-color: #000;
+    color: #00ff00;
+     width: calc(100% - 20px);  /* Abzüglich des Gesamtpolster */
+    margin: 0 auto 20px auto;  /* Zentriert das Display und fügt unten einen Rand hinzu */
+   
+}
+
+#buttons button {
+    padding: 20px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #000;
+    color: #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+    transition: background-color 0.3s;
+}
+
+#buttons button:active {
+    background-color: #00ff00;
+    color: #000;
+}
