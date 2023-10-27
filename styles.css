@@ -11,6 +11,8 @@ body {
 }
 
 #calculator {
+    width: 300px;  /* Oder die gewünschte Breite */
+    height: 400px;  /* Oder die gewünschte Höhe */
     background-color: rgba(0, 0, 0, 0.8);
     border: 1px solid #00ff00;
     border-radius: 10px;
